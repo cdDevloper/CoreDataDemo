@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var dataHandlingObj = DataHandling()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        dataHandlingObj.addStudentRecordIntoCoreData(name: "Chaitanya", id: 1)
+        dataHandlingObj.addStudentRecordIntoCoreData(name: "Shivaji", id: 1)
     }
 
 

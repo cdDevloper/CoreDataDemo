@@ -13,6 +13,7 @@
 		AA7D9896239D621E00EDEE9E /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7D9894239D621E00EDEE9E /* CoreDataDemo.xcdatamodeld */; };
 		AA7D9898239D622200EDEE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7D9897239D622200EDEE9E /* Assets.xcassets */; };
 		AA7D989B239D622200EDEE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7D9899239D622200EDEE9E /* LaunchScreen.storyboard */; };
+		AAB7AFED23A56709006BB187 /* DataHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7AFEC23A56709006BB187 /* DataHandling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA7D9897239D622200EDEE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7D989A239D622200EDEE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7D989C239D622200EDEE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB7AFEC23A56709006BB187 /* DataHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7D988D239D621E00EDEE9E /* AppDelegate.swift */,
+				AAB7AFEC23A56709006BB187 /* DataHandling.swift */,
 				AA7D988F239D621E00EDEE9E /* ViewController.swift */,
 				AA7D9891239D621E00EDEE9E /* Main.storyboard */,
 				AA7D9897239D622200EDEE9E /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB7AFED23A56709006BB187 /* DataHandling.swift in Sources */,
 				AA7D9890239D621E00EDEE9E /* ViewController.swift in Sources */,
 				AA7D9896239D621E00EDEE9E /* CoreDataDemo.xcdatamodeld in Sources */,
 				AA7D988E239D621E00EDEE9E /* AppDelegate.swift in Sources */,
@@ -286,7 +290,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDAppDeveloper.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CDAppDeveloper.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
