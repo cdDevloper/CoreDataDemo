@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         dataHandlingObj.addStudentRecordIntoCoreData(name: "Chaitanya", id: 1)
         dataHandlingObj.addStudentRecordIntoCoreData(name: "Shivaji", id: 1)
+        
+        dataHandlingObj.fetchAllRecords()
+        
+        dataHandlingObj.deleteRecord()
+        
+        dataHandlingObj.fetchAllRecords()
+        
     }
 
 
